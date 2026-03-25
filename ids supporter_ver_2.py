@@ -5,7 +5,7 @@ from datetime import datetime
 
 def log_event(attacker_ip, port_number):
     event_data = {
-        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S:%f"),
         "attacker_ip": attacker_ip,
         "target_port": port_number,
         "status": "Incursion Detected"
