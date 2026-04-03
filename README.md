@@ -53,12 +53,18 @@ Bash
 python3 offense.py
 📊 Sample Detection Log
 JSON
+
 {
   "timestamp": "2026-04-03 20:05:12.441",
+  
   "attacker_ip": "127.0.0.1",
+  
   "target_port": 7777,
+  
   "event_type": "PORT SCAN",
+  
   "severity": "HIGH"
+  
 }
 🛡️ Security Alignment (SC-900 / AZ-500)
 This project implements core Zero Trust principles by:
