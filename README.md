@@ -66,7 +66,7 @@ JSON
   "severity": "HIGH"
   
 }
-🛡️ Security Alignment (SC-900 / AZ-500)
+🛡️ Security Alignment
 This project implements core Zero Trust principles by:
 
 Verifying Explicitly: Inspecting every packet payload rather than just trusting the connection.
